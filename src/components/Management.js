@@ -89,10 +89,10 @@ function Management({title}) {
                             name:"none"
                         })
                     }}/>
-                    <p style={{color:"rgba(103, 58, 183, 1)",marginLeft:"10px"}}>{title}</p>
+                    <p style={{color:"rgba(103, 58, 183, 1)",marginLeft:"10px",fontWeight:"500"}}>{title}</p>
                     </div>
                 
-                    <div style={{display:"flex",justifyContent:"space-evenly",alignItems:"center",width:"25%",color:"#DADADA"}}>
+                    <div style={{display:"flex",justifyContent:"space-evenly",alignItems:"center",width:"25%",color:"gray"}}>
                         <EditIcon/>
                
                     </div>

@@ -96,3 +96,6 @@
 .display{
     display: table-row;
 }
+input[type="checkbox"]:checked:before{
+    background-color: #673AB7;
+}

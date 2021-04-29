@@ -14,7 +14,7 @@ function Role() {
             <div className="body__part">
                 <div className="body__role">
                     <button><AddIcon/>Add Role</button>
-                    <div style={{display:"flex",justifyContent:"space-evenly",alignItems:"center",width:"25%",color:"#DADADA"}}>
+                    <div style={{display:"flex",justifyContent:"space-evenly",alignItems:"center",width:"25%",color:"gray"}}>
                         <EditIcon/>
                         <DeleteIcon/>
                     </div>
