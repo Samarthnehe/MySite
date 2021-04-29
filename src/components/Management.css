@@ -1,0 +1,98 @@
+.management{
+    overflow-y: visible;
+    min-height: calc(100vh - 90px);
+}.toggle{
+    position : relative ;
+    display : inline-block;
+    width : 40px;
+    height : 24px;
+    background-color: gray;
+    border-radius: 30px;
+    border: 1px solid #DADADA;
+}
+        
+/* After slide changes */
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    top: -2px; 
+    left: -2px;
+    transition:  all 0.5s;
+    border:1px solid gray
+}
+        
+/* Toggle text */
+
+        
+/* Checkbox cheked effect */
+.checkbox:checked + .toggle::after {
+    left : 18px; 
+}
+
+/* Checkbox cheked toggle label bg color */
+.checkbox:checked + .toggle {
+    background-color: rgba(39, 174, 96, 1);
+
+}
+        
+/* Checkbox vanished */
+.checkbox { 
+    display : none;
+}
+.content{
+  
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.content .open{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 20px;
+}
+.open .open1{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 100px;
+}
+.open .open1 .buy{
+    display: flex;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.open .open2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+}
+.open .open2 .key{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+.open .open2 .key label{
+    margin-left: 10px;
+}
+#code1,#code2,#code3,#code4,#code5,#code6{
+    display: none;
+    transition: 0.3s ease-in-out all;
+}
+.display{
+    display: table-row;
+}

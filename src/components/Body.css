@@ -1,0 +1,44 @@
+.body{
+    flex: 4;
+
+}
+.body .body__nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    padding-right: 100px;
+    border-bottom:2px solid #f2f2f2;
+}
+.body .body__nav .body__sync{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body__main{
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    justify-content: flex-start;
+    color: #333333;
+   
+}
+.body__main .body__options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 5px ;
+    color: rgba(51, 51, 51, 1);
+}
+.body__main .body__options:hover{
+    color: #673AB7;
+    border-bottom: 3px solid #673AB7;
+    padding-bottom: 2px;
+
+    
+}
+.body__options svg{
+    padding-right: 5px;
+}

@@ -1,0 +1,26 @@
+.sidenav{
+    flex: 1;
+    min-height: calc(100vh - 95px);
+    background-color:  #FCFBFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px 5px;
+    color: #828282;
+}
+.sidenav__obj{
+    display: flex;
+   width: calc(100% - 80px);
+    align-items: center;
+    padding: 10px 40px;
+}
+.sidenav__obj svg{
+    margin-right: 15px;
+}
+.sidenav__obj:hover{
+    background-color: #E1D8F1;
+    color: #673AB7;
+    padding: 10px 30px;
+    border-left: 10px solid #673AB7;
+}
